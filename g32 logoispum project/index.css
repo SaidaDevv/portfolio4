@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Mulish&display=swap');
+
+
+header{
+max-width: 1070px;
+padding-left: 184px;
+padding-right: 186px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}
+
+.nav{
+display: flex;
+align-items: center;
+margin: 0 auto;
+}
+
+.nav_item{
+list-style-type: none;
+margin-left: 49px;
+}
+
+.nav_item_link{
+text-decoration: none;
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 700;
+text-align: left;
+color: black;
+
+}
+
+.nav_item_btn{
+
+    background: #FF7143;
+    border-radius: 10px;
+margin-left: 158px;
+padding: 19px 59px;
+}
+
+.nav_item_link_btn{
+color: white;
+}
+
+.nav_item_btn:hover{
+background-color: rgb(178, 147, 109);
+transition: 3s all ease-in;
+}
+
+.nav_item_link:hover{
+border-bottom:2px solid #5454D4;
+
+}
+
+.nav_item_btn .nav_item_link_btn:hover{
+border: none;
+
+}
+
+
+/* main css codes */
+
+.wrapper{
+    max-width: 1070px;
+    padding-left: 184px;
+    padding-right: 186px;
+    margin-top: 86px;
+}
+
+.main{
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+align-items: center;
+
+}
+
+.main-text-title{
+    font-family: DM Sans;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: left;
+    
+}
+
+.main-text-description{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #696871;
+        
+}
+
+.main-img{
+margin-left: 74px;
+}
+
+
+
+.img1{
+    position: absolute;
+    width: 126.72px;
+    height: 29.54px;
+    left: 1126.52px;
+    top: 943.23px;
+
+}
+
+.img2{
+    position: absolute;
+width: 117.68px;
+height: 23.61px;
+left: 889.05px;
+top: 946.19px;
+
+}
+
+.img3{
+    position: absolute;
+width: 100.19px;
+height: 47.65px;
+left: 669.79px;
+top: 934.18px;
+}
+
+.img4{position: absolute;
+    width: 123.36px;
+    height: 28.49px;
+    left: 425.21px;
+    top: 943.76px;
+}
+
+.img5{
+    position: absolute;
+width: 118.78px;
+height: 27.12px;
+left: 186.47px;
+top: 944.43px;
+}
+
+.item_btn{
+   
+background: #5454D4;
+border-radius: 10px;
+height: 60px;
+width: 211px;
+border-radius: 10px;
+list-style-type: none;
+text-align: center;
+}
+
+.start_btn{
+    font-family: DM Sans;
+font-size: 17px;
+font-weight: 700;
+position: relative;
+top: 18px;
+text-decoration: none;
+color: white;
+}
+
+.start_btn:hover{
+color: cadetblue;
+transition: 1s all ease-in;
+}
+
+.item_btn:hover{
+background-color: aqua;
+transition: 1s all ease-in;
+}
+
+ul{
+display: flex;    
+}
+
+.item_btn_img{
+list-style-type: none;
+margin-left: 20px;
+
+}
+
+.next-main{
+margin-top: 371px;
+display: flex;
+}
+
+.next-index{
+    height: 57px;
+width: 556px;
+left: 0px;
+top: 0px;
+font-family: DM Sans;
+font-size: 50px;
+font-weight: 700;
+text-align: left;
+margin-left: 165px;
+}
+
+.next-description{
+    height: 90px;
+width: 459px;
+left: 0px;
+top: 87px;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+margin-left: 165px;
+}
+
+.next-link{
+margin-left: 165px;
+
+}
+
+.next-text{
+margin-top: 83px;
+}
+
+.third-main{
+    display: flex;
+}
+
+.third-index{
+    font-family: DM Sans;
+font-size: 50px;
+font-weight: 700;
+text-align: left;
+}
+
+.third-description{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    
+
+}
+
+.imges{
+margin-left: 158px;
+
+}
+
+
+.third-text{
+margin-top: 150px;
+
+
+}
+
+.img1{
+
+    margin-top: 120px;
+}
+
+
+.img2{
+
+    margin-top: 120px;
+}
+
+.img3{
+
+    margin-top: 120px;
+}
+
+.img4{
+
+    margin-top: 120px;
+}
+
+
+.img5{
+
+    margin-top: 120px;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 85px;
+}
+
+.type-card{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.card-description{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+
+}
+
+
+
+.type-Audit{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+
+
+
+.icon1 img{
+
+margin-left: 50px;
+
+}
+
+
+.icon2 img{
+
+    margin-left: 10px;
+    
+    }
+
+
+    .icon3 img{
+
+        margin-left: 70px;
+        
+        }    
+
+.icon1{
+
+    margin-right: 50px;
+}
+
+.icon3{
+    margin-left: 40px;
+}
+
+
+.Audit-description{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+
+}
+
+
+
+.type-camera{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+
+.camera-description{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.fourth-part{
+    display: flex;
+    margin-top: 100px;
+}
+
+.getting{
+    font-family: DM Sans;
+font-size: 60px;
+font-weight: 700;
+text-align: left;
+
+}
+
+.getting-img{
+    height: 65px;
+width: 344px;
+left: 2px;
+top: 0px;
+border-radius: 10px;
+margin-top: 120px;
+}
+
+.start{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+position: relative;
+top: 50px;
+
+
+}
+
+.free-price{
+    background-color: #F8F8F8;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    height: 600px;
+width: 330px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+
+    
+}
+
+
+.last-cards{
+
+}
+
+h4{
+    font-family: DM Sans;
+font-size: 60px;
+font-weight: 700;
+text-align: center;
+
+}
+
+
+
+.web{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 36px;
+    
+}
+
+
+.host{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 36px;
+    
+}
+
+.support{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 36px;
+    
+}
+
+.free-btn{
+    height: 60px;
+    width: 285px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #EAE9F2, #EAE9F2),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #EAE9F2;    
+    margin-top: 36px;    
+
+}
+
+
+
+/* 2-norm card */
+
+
+.pre{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+position: relative;
+top: 50px;
+
+}
+
+.norm-price{
+    background: #FF7143;
+    height: 600px;
+width: 376px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+
+    
+    
+    
+}
+
+
+.last-cards{
+    display: flex;
+}
+
+h4{
+    font-family: DM Sans;
+font-size: 60px;
+font-weight: 700;
+text-align: center;
+
+}
+
+
+
+.web10{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 36px;
+    
+}
+
+
+.host15{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 36px;
+    
+}
+
+.pre-support{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 36px;
+    
+}
+
+.norm-btn{
+  
+    height: 60px;
+    width: 305px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: #9F3919;    
+    margin-left: 35px;
+    border:1px solid #FF7143;
+
+    margin-top: 40px;
+
+
+}
+
+.last-cards{
+
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
